@@ -18,5 +18,7 @@ target = 7
 
 occurrence = linear_search(arr,target)
 
-print(f"Total occurrences of {target}: {occurrence}")
-
+if occurrence > 0:
+    print(f"Total occurrences of {target}: {occurrence}")
+else:
+     print("Target not found")
